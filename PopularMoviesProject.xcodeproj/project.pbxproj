@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C92D3E4E4B5E802E2749E12 /* libPods-PopularMoviesProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D318733A00B891FD0CF1D318 /* libPods-PopularMoviesProject.a */; };
+		802FD0D92148426E0014DD9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 802FD0D82148426E0014DD9D /* Default-568h@2x.png */; };
+		802FD0DC21486A1A0014DD9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802FD0DB21486A1A0014DD9D /* DetailViewController.m */; };
+		803BD18C2147D1A500CDF471 /* Loading_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 803BD18B2147D1A500CDF471 /* Loading_icon.gif */; };
 		803DE3AB2146942C00DD5C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 803DE3AA2146942C00DD5C24 /* main.m */; };
 		803DE3AE2146942C00DD5C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 803DE3AD2146942C00DD5C24 /* AppDelegate.m */; };
 		803DE3B12146942C00DD5C24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803DE3B02146942C00DD5C24 /* ViewController.m */; };
 		803DE3B42146942C00DD5C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DE3B22146942C00DD5C24 /* Main.storyboard */; };
 		803DE3B62146942C00DD5C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DE3B52146942C00DD5C24 /* Assets.xcassets */; };
 		803DE3B92146942C00DD5C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DE3B72146942C00DD5C24 /* LaunchScreen.storyboard */; };
+		808F95A22147FB990036B9D4 /* Netwok.m in Sources */ = {isa = PBXBuildFile; fileRef = 808F95A12147FB990036B9D4 /* Netwok.m */; };
+		80B20F242146983B00644336 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B20F1F2146983B00644336 /* home.png */; };
+		80B20F252146983B00644336 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B20F202146983B00644336 /* play.png */; };
+		80B20F262146983B00644336 /* star_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B20F212146983B00644336 /* star_gold.png */; };
+		80B20F272146983B00644336 /* star_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B20F222146983B00644336 /* star_gray.png */; };
+		80B20F282146983B00644336 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B20F232146983B00644336 /* star.png */; };
+		80B20F2B2146997D00644336 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B20F2A2146997D00644336 /* HomeViewController.m */; };
+		80D6C7D0214C421C00B080E5 /* FavorateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D6C7CF214C421C00B080E5 /* FavorateCollectionViewController.m */; };
+		80D6C7D6214C494400B080E5 /* Fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7D1214C494400B080E5 /* Fav.png */; };
+		80D6C7D7214C494400B080E5 /* icons8-christmas-star-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7D2214C494400B080E5 /* icons8-christmas-star-30.png */; };
+		80D6C7D8214C494400B080E5 /* rsz_1rsz_youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7D3214C494400B080E5 /* rsz_1rsz_youtube.png */; };
+		80D6C7D9214C494400B080E5 /* rsz_add-to-favorites-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7D4214C494400B080E5 /* rsz_add-to-favorites-icon.png */; };
+		80D6C7DA214C494400B080E5 /* rsz_movieicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7D5214C494400B080E5 /* rsz_movieicon.png */; };
+		80D6C7DD214C4F1400B080E5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D6C7DB214C4F1400B080E5 /* libsqlite3.0.tbd */; };
+		80D6C7DE214C4F1400B080E5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D6C7DC214C4F1400B080E5 /* libsqlite3.tbd */; };
+		80D6C7EF214C66CD00B080E5 /* icons8-add-to-favorites-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7DF214C66CD00B080E5 /* icons8-add-to-favorites-50.png */; };
+		80D6C7F0214C66CD00B080E5 /* icons8-add-to-favorites-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E0214C66CD00B080E5 /* icons8-add-to-favorites-filled-50.png */; };
+		80D6C7F1214C66CD00B080E5 /* icons8-christmas-star-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E1214C66CD00B080E5 /* icons8-christmas-star-filled-50.png */; };
+		80D6C7F2214C66CD00B080E5 /* icons8-clapperboard-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E2214C66CD00B080E5 /* icons8-clapperboard-50 (1).png */; };
+		80D6C7F3214C66CD00B080E5 /* icons8-clapperboard-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E3214C66CD00B080E5 /* icons8-clapperboard-50.png */; };
+		80D6C7F4214C66CD00B080E5 /* icons8-clapperboard-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E4214C66CD00B080E5 /* icons8-clapperboard-filled-50.png */; };
+		80D6C7F5214C66CD00B080E5 /* icons8-film-reel-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E5214C66CD00B080E5 /* icons8-film-reel-50.png */; };
+		80D6C7F6214C66CD00B080E5 /* icons8-film-reel-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E6214C66CD00B080E5 /* icons8-film-reel-filled-50.png */; };
+		80D6C7F7214C66CD00B080E5 /* icons8-menu-vertical-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E7214C66CD00B080E5 /* icons8-menu-vertical-50.png */; };
+		80D6C7F8214C66CD00B080E5 /* icons8-menu-vertical-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E8214C66CD00B080E5 /* icons8-menu-vertical-filled-50.png */; };
+		80D6C7F9214C66CD00B080E5 /* icons8-overview-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7E9214C66CD00B080E5 /* icons8-overview-50.png */; };
+		80D6C7FA214C66CD00B080E5 /* icons8-overview-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7EA214C66CD00B080E5 /* icons8-overview-filled-50.png */; };
+		80D6C7FB214C66CD00B080E5 /* icons8-play-button-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7EB214C66CD00B080E5 /* icons8-play-button-50.png */; };
+		80D6C7FC214C66CD00B080E5 /* icons8-play-button-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7EC214C66CD00B080E5 /* icons8-play-button-filled-50.png */; };
+		80D6C7FD214C66CD00B080E5 /* icons8-youtube-squared-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7ED214C66CD00B080E5 /* icons8-youtube-squared-50.png */; };
+		80D6C7FE214C66CD00B080E5 /* icons8-youtube-squared-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D6C7EE214C66CD00B080E5 /* icons8-youtube-squared-filled-50.png */; };
+		80FE151E214BD29600BC7335 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE151D214BD29600BC7335 /* 40.png */; };
+		80FE1520214BDD4B00BC7335 /* PFNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80FE151F214BDD4B00BC7335 /* PFNavigationDropdownMenu.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F6D7F5E69158274A384C7BA /* Pods-PopularMoviesProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularMoviesProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopularMoviesProject/Pods-PopularMoviesProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2880E0B5B7A6743EFDF694BA /* Pods-PopularMoviesProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularMoviesProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopularMoviesProject/Pods-PopularMoviesProject.release.xcconfig"; sourceTree = "<group>"; };
+		802FD0D82148426E0014DD9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		802FD0DA21486A1A0014DD9D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		802FD0DB21486A1A0014DD9D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		803BD18B2147D1A500CDF471 /* Loading_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading_icon.gif; sourceTree = "<group>"; };
 		803DE3A62146942C00DD5C24 /* PopularMoviesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularMoviesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		803DE3AA2146942C00DD5C24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		803DE3AC2146942C00DD5C24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +69,43 @@
 		803DE3B52146942C00DD5C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		803DE3B82146942C00DD5C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803DE3BA2146942C00DD5C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808F95A02147FB990036B9D4 /* Netwok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Netwok.h; sourceTree = "<group>"; };
+		808F95A12147FB990036B9D4 /* Netwok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Netwok.m; sourceTree = "<group>"; };
+		80B20F1F2146983B00644336 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		80B20F202146983B00644336 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		80B20F212146983B00644336 /* star_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_gold.png; sourceTree = "<group>"; };
+		80B20F222146983B00644336 /* star_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_gray.png; sourceTree = "<group>"; };
+		80B20F232146983B00644336 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		80B20F292146997D00644336 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		80B20F2A2146997D00644336 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		80D6C7CE214C421C00B080E5 /* FavorateCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorateCollectionViewController.h; sourceTree = "<group>"; };
+		80D6C7CF214C421C00B080E5 /* FavorateCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorateCollectionViewController.m; sourceTree = "<group>"; };
+		80D6C7D1214C494400B080E5 /* Fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fav.png; sourceTree = "<group>"; };
+		80D6C7D2214C494400B080E5 /* icons8-christmas-star-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-christmas-star-30.png"; sourceTree = "<group>"; };
+		80D6C7D3214C494400B080E5 /* rsz_1rsz_youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_1rsz_youtube.png; sourceTree = "<group>"; };
+		80D6C7D4214C494400B080E5 /* rsz_add-to-favorites-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_add-to-favorites-icon.png"; sourceTree = "<group>"; };
+		80D6C7D5214C494400B080E5 /* rsz_movieicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_movieicon.png; sourceTree = "<group>"; };
+		80D6C7DB214C4F1400B080E5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		80D6C7DC214C4F1400B080E5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		80D6C7DF214C66CD00B080E5 /* icons8-add-to-favorites-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-add-to-favorites-50.png"; path = "../../Asset/icons8-add-to-favorites-50.png"; sourceTree = "<group>"; };
+		80D6C7E0214C66CD00B080E5 /* icons8-add-to-favorites-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-add-to-favorites-filled-50.png"; path = "../../Asset/icons8-add-to-favorites-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7E1214C66CD00B080E5 /* icons8-christmas-star-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-christmas-star-filled-50.png"; path = "../../Asset/icons8-christmas-star-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7E2214C66CD00B080E5 /* icons8-clapperboard-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-clapperboard-50 (1).png"; path = "../../Asset/icons8-clapperboard-50 (1).png"; sourceTree = "<group>"; };
+		80D6C7E3214C66CD00B080E5 /* icons8-clapperboard-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-clapperboard-50.png"; path = "../../Asset/icons8-clapperboard-50.png"; sourceTree = "<group>"; };
+		80D6C7E4214C66CD00B080E5 /* icons8-clapperboard-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-clapperboard-filled-50.png"; path = "../../Asset/icons8-clapperboard-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7E5214C66CD00B080E5 /* icons8-film-reel-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-film-reel-50.png"; path = "../../Asset/icons8-film-reel-50.png"; sourceTree = "<group>"; };
+		80D6C7E6214C66CD00B080E5 /* icons8-film-reel-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-film-reel-filled-50.png"; path = "../../Asset/icons8-film-reel-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7E7214C66CD00B080E5 /* icons8-menu-vertical-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu-vertical-50.png"; path = "../../Asset/icons8-menu-vertical-50.png"; sourceTree = "<group>"; };
+		80D6C7E8214C66CD00B080E5 /* icons8-menu-vertical-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu-vertical-filled-50.png"; path = "../../Asset/icons8-menu-vertical-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7E9214C66CD00B080E5 /* icons8-overview-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-overview-50.png"; path = "../../Asset/icons8-overview-50.png"; sourceTree = "<group>"; };
+		80D6C7EA214C66CD00B080E5 /* icons8-overview-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-overview-filled-50.png"; path = "../../Asset/icons8-overview-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7EB214C66CD00B080E5 /* icons8-play-button-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-play-button-50.png"; path = "../../Asset/icons8-play-button-50.png"; sourceTree = "<group>"; };
+		80D6C7EC214C66CD00B080E5 /* icons8-play-button-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-play-button-filled-50.png"; path = "../../Asset/icons8-play-button-filled-50.png"; sourceTree = "<group>"; };
+		80D6C7ED214C66CD00B080E5 /* icons8-youtube-squared-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-youtube-squared-50.png"; path = "../../Asset/icons8-youtube-squared-50.png"; sourceTree = "<group>"; };
+		80D6C7EE214C66CD00B080E5 /* icons8-youtube-squared-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-youtube-squared-filled-50.png"; path = "../../Asset/icons8-youtube-squared-filled-50.png"; sourceTree = "<group>"; };
+		80FE151D214BD29600BC7335 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		80FE151F214BDD4B00BC7335 /* PFNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PFNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		D318733A00B891FD0CF1D318 /* libPods-PopularMoviesProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopularMoviesProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +113,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D6C7DD214C4F1400B080E5 /* libsqlite3.0.tbd in Frameworks */,
+				80D6C7DE214C4F1400B080E5 /* libsqlite3.tbd in Frameworks */,
+				7C92D3E4E4B5E802E2749E12 /* libPods-PopularMoviesProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217096CA7F21C037280311AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D6C7DB214C4F1400B080E5 /* libsqlite3.0.tbd */,
+				80D6C7DC214C4F1400B080E5 /* libsqlite3.tbd */,
+				D318733A00B891FD0CF1D318 /* libPods-PopularMoviesProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		803DE39D2146942C00DD5C24 = {
 			isa = PBXGroup;
 			children = (
+				804EC70C2152798E001FBFFB /* Assets */,
 				803DE3A82146942C00DD5C24 /* PopularMoviesProject */,
 				803DE3A72146942C00DD5C24 /* Products */,
+				D938330284C3F9A62F66E227 /* Pods */,
+				217096CA7F21C037280311AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +154,12 @@
 		803DE3A82146942C00DD5C24 /* PopularMoviesProject */ = {
 			isa = PBXGroup;
 			children = (
+				80B20F292146997D00644336 /* HomeViewController.h */,
+				80B20F2A2146997D00644336 /* HomeViewController.m */,
+				802FD0DA21486A1A0014DD9D /* DetailViewController.h */,
+				802FD0DB21486A1A0014DD9D /* DetailViewController.m */,
+				80D6C7CE214C421C00B080E5 /* FavorateCollectionViewController.h */,
+				80D6C7CF214C421C00B080E5 /* FavorateCollectionViewController.m */,
 				803DE3AC2146942C00DD5C24 /* AppDelegate.h */,
 				803DE3AD2146942C00DD5C24 /* AppDelegate.m */,
 				803DE3AF2146942C00DD5C24 /* ViewController.h */,
@@ -67,6 +169,8 @@
 				803DE3B72146942C00DD5C24 /* LaunchScreen.storyboard */,
 				803DE3BA2146942C00DD5C24 /* Info.plist */,
 				803DE3A92146942C00DD5C24 /* Supporting Files */,
+				808F95A02147FB990036B9D4 /* Netwok.h */,
+				808F95A12147FB990036B9D4 /* Netwok.m */,
 			);
 			path = PopularMoviesProject;
 			sourceTree = "<group>";
@@ -79,6 +183,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		804EC70C2152798E001FBFFB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80FE151D214BD29600BC7335 /* 40.png */,
+				802FD0D82148426E0014DD9D /* Default-568h@2x.png */,
+				803BD18B2147D1A500CDF471 /* Loading_icon.gif */,
+				80B20F1F2146983B00644336 /* home.png */,
+				80B20F202146983B00644336 /* play.png */,
+				80B20F212146983B00644336 /* star_gold.png */,
+				80B20F222146983B00644336 /* star_gray.png */,
+				80B20F232146983B00644336 /* star.png */,
+				80D6C7DF214C66CD00B080E5 /* icons8-add-to-favorites-50.png */,
+				80D6C7E0214C66CD00B080E5 /* icons8-add-to-favorites-filled-50.png */,
+				80D6C7E1214C66CD00B080E5 /* icons8-christmas-star-filled-50.png */,
+				80D6C7E2214C66CD00B080E5 /* icons8-clapperboard-50 (1).png */,
+				80D6C7E3214C66CD00B080E5 /* icons8-clapperboard-50.png */,
+				80D6C7E4214C66CD00B080E5 /* icons8-clapperboard-filled-50.png */,
+				80D6C7E5214C66CD00B080E5 /* icons8-film-reel-50.png */,
+				80D6C7E6214C66CD00B080E5 /* icons8-film-reel-filled-50.png */,
+				80D6C7E7214C66CD00B080E5 /* icons8-menu-vertical-50.png */,
+				80D6C7E8214C66CD00B080E5 /* icons8-menu-vertical-filled-50.png */,
+				80D6C7E9214C66CD00B080E5 /* icons8-overview-50.png */,
+				80D6C7EA214C66CD00B080E5 /* icons8-overview-filled-50.png */,
+				80D6C7EB214C66CD00B080E5 /* icons8-play-button-50.png */,
+				80D6C7EC214C66CD00B080E5 /* icons8-play-button-filled-50.png */,
+				80D6C7ED214C66CD00B080E5 /* icons8-youtube-squared-50.png */,
+				80D6C7EE214C66CD00B080E5 /* icons8-youtube-squared-filled-50.png */,
+				80D6C7D1214C494400B080E5 /* Fav.png */,
+				80D6C7D2214C494400B080E5 /* icons8-christmas-star-30.png */,
+				80D6C7D3214C494400B080E5 /* rsz_1rsz_youtube.png */,
+				80D6C7D4214C494400B080E5 /* rsz_add-to-favorites-icon.png */,
+				80D6C7D5214C494400B080E5 /* rsz_movieicon.png */,
+				80FE151F214BDD4B00BC7335 /* PFNavigationDropdownMenu.bundle */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D938330284C3F9A62F66E227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D7F5E69158274A384C7BA /* Pods-PopularMoviesProject.debug.xcconfig */,
+				2880E0B5B7A6743EFDF694BA /* Pods-PopularMoviesProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 803DE3BD2146942C00DD5C24 /* Build configuration list for PBXNativeTarget "PopularMoviesProject" */;
 			buildPhases = (
+				D4FD6D28EA25E4B8ED40F545 /* [CP] Check Pods Manifest.lock */,
 				803DE3A22146942C00DD5C24 /* Sources */,
 				803DE3A32146942C00DD5C24 /* Frameworks */,
 				803DE3A42146942C00DD5C24 /* Resources */,
+				BBAD3FC0A14243E3298CDC71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +289,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D6C7F4214C66CD00B080E5 /* icons8-clapperboard-filled-50.png in Resources */,
+				80FE151E214BD29600BC7335 /* 40.png in Resources */,
+				80D6C7FA214C66CD00B080E5 /* icons8-overview-filled-50.png in Resources */,
+				80D6C7F0214C66CD00B080E5 /* icons8-add-to-favorites-filled-50.png in Resources */,
+				803BD18C2147D1A500CDF471 /* Loading_icon.gif in Resources */,
+				80D6C7D8214C494400B080E5 /* rsz_1rsz_youtube.png in Resources */,
+				80B20F242146983B00644336 /* home.png in Resources */,
+				80FE1520214BDD4B00BC7335 /* PFNavigationDropdownMenu.bundle in Resources */,
+				80B20F252146983B00644336 /* play.png in Resources */,
+				80D6C7F2214C66CD00B080E5 /* icons8-clapperboard-50 (1).png in Resources */,
+				802FD0D92148426E0014DD9D /* Default-568h@2x.png in Resources */,
+				80D6C7F5214C66CD00B080E5 /* icons8-film-reel-50.png in Resources */,
+				80D6C7EF214C66CD00B080E5 /* icons8-add-to-favorites-50.png in Resources */,
 				803DE3B92146942C00DD5C24 /* LaunchScreen.storyboard in Resources */,
+				80D6C7F7214C66CD00B080E5 /* icons8-menu-vertical-50.png in Resources */,
+				80B20F262146983B00644336 /* star_gold.png in Resources */,
 				803DE3B62146942C00DD5C24 /* Assets.xcassets in Resources */,
+				80D6C7FC214C66CD00B080E5 /* icons8-play-button-filled-50.png in Resources */,
+				80D6C7FD214C66CD00B080E5 /* icons8-youtube-squared-50.png in Resources */,
+				80D6C7F3214C66CD00B080E5 /* icons8-clapperboard-50.png in Resources */,
+				80D6C7D7214C494400B080E5 /* icons8-christmas-star-30.png in Resources */,
+				80D6C7F6214C66CD00B080E5 /* icons8-film-reel-filled-50.png in Resources */,
+				80B20F282146983B00644336 /* star.png in Resources */,
+				80D6C7DA214C494400B080E5 /* rsz_movieicon.png in Resources */,
+				80D6C7D6214C494400B080E5 /* Fav.png in Resources */,
+				80D6C7D9214C494400B080E5 /* rsz_add-to-favorites-icon.png in Resources */,
+				80D6C7FE214C66CD00B080E5 /* icons8-youtube-squared-filled-50.png in Resources */,
 				803DE3B42146942C00DD5C24 /* Main.storyboard in Resources */,
+				80D6C7F8214C66CD00B080E5 /* icons8-menu-vertical-filled-50.png in Resources */,
+				80B20F272146983B00644336 /* star_gray.png in Resources */,
+				80D6C7F1214C66CD00B080E5 /* icons8-christmas-star-filled-50.png in Resources */,
+				80D6C7FB214C66CD00B080E5 /* icons8-play-button-50.png in Resources */,
+				80D6C7F9214C66CD00B080E5 /* icons8-overview-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBAD3FC0A14243E3298CDC71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PopularMoviesProject/Pods-PopularMoviesProject-resources.sh",
+				"${PODS_ROOT}/PFNavigationDropdownMenu/Classes/PFNavigationDropdownMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PFNavigationDropdownMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopularMoviesProject/Pods-PopularMoviesProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FD6D28EA25E4B8ED40F545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopularMoviesProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		803DE3A22146942C00DD5C24 /* Sources */ = {
@@ -153,6 +374,10 @@
 				803DE3B12146942C00DD5C24 /* ViewController.m in Sources */,
 				803DE3AE2146942C00DD5C24 /* AppDelegate.m in Sources */,
 				803DE3AB2146942C00DD5C24 /* main.m in Sources */,
+				80D6C7D0214C421C00B080E5 /* FavorateCollectionViewController.m in Sources */,
+				808F95A22147FB990036B9D4 /* Netwok.m in Sources */,
+				80B20F2B2146997D00644336 /* HomeViewController.m in Sources */,
+				802FD0DC21486A1A0014DD9D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +495,7 @@
 		};
 		803DE3BE2146942C00DD5C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6D7F5E69158274A384C7BA /* Pods-PopularMoviesProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopularMoviesProject/Info.plist;
@@ -281,6 +507,7 @@
 		};
 		803DE3BF2146942C00DD5C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2880E0B5B7A6743EFDF694BA /* Pods-PopularMoviesProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopularMoviesProject/Info.plist;
@@ -309,6 +536,7 @@
 				803DE3BF2146942C00DD5C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
